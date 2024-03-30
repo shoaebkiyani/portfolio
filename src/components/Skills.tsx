@@ -74,7 +74,7 @@ const skills = [
 
 function Skills() {
 	return (
-		<div>
+		<div id='skills'>
 			<section className='min-h-[100v pt- w-[90%] mx-auto'>
 				<div>
 					<h1 className='text-4xl font-bold text-gray-500 text-center py-4'>

@@ -1,6 +1,6 @@
 function Contact() {
 	return (
-		<div>
+		<div id='contact'>
 			<section className='w-[90%] mx-auto text-gray-100 border-b border-sky-700'>
 				<div>
 					<h1 className='text-4xl text-sky-600 font-bold text-center py-4'>
@@ -49,7 +49,11 @@ function Contact() {
 						</p>
 						<div className='flex w-[90%] mx-auto justify-center items-center'>
 							<input type='hidden' name='_captcha' value='false' />
-							<input type='hidden' name='_next' value='/thankyou/' />
+							<input
+								type='hidden'
+								name='_next'
+								value='https://shoaibkiyani.netlify.app/thankyou'
+							/>
 							<div className='w-full mr-1'>
 								<input
 									type='text'

@@ -35,7 +35,7 @@ function Projects() {
 	];
 
 	return (
-		<div className='w-[90%] mx-auto text-gray-100'>
+		<div id='projects' className='w-[90%] mx-auto text-gray-100'>
 			<section>
 				<div>
 					<h1 className='text-4xl text-sky-600 font-bold text-center py-4'>

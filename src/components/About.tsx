@@ -1,6 +1,6 @@
 function About() {
 	return (
-		<div className='w-[90%] mx-auto font-normal'>
+		<div id='about' className='w-[90%] mx-auto font-normal'>
 			<section className='animate-slidedow'>
 				<div>
 					<h1 className='text-4xl text-gray-500 font-bold text-center py-4 transition-opacity ease-in duration-700'>

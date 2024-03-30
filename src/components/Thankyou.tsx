@@ -1,7 +1,7 @@
 function Thankyou() {
 	return (
 		<main
-			id='thanks'
+			id='thankyou'
 			className='flex flex-col justify-center items-center text-gray-100 min-h-[calc(100vh-56px)] bg-gray-800 bg-opacity-45 py-14'
 		>
 			<h1 className='text-[2.5rem]'>Thank you for your message.</h1>
