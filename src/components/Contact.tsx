@@ -49,11 +49,7 @@ function Contact() {
 						</p>
 						<div className='flex w-[90%] mx-auto justify-center items-center'>
 							<input type='hidden' name='_captcha' value='false' />
-							<input
-								type='hidden'
-								name='_next'
-								value='https://shoaibsportfolio.netlify.app/thankyou'
-							/>
+							<input type='hidden' name='_next' value='/thankyou' />
 							<div className='w-full mr-1'>
 								<input
 									type='text'
