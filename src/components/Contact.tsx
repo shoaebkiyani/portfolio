@@ -52,7 +52,7 @@ function Contact() {
 							<input
 								type='hidden'
 								name='_next'
-								value='https://shoaibkiyani.netlify.app/thankyou'
+								value='https://shoaibsportfolio.netlify.app/thankyou'
 							/>
 							<div className='w-full mr-1'>
 								<input
