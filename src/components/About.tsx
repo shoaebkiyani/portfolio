@@ -87,7 +87,7 @@ function About() {
 						className='min-h-32 xs:w-full sm:w-full flex flex-col justify-center items-center space-y-2 rounded-sm border-2 border-amber-700 bg-orange-500 shadow-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-90 hover:bg-orange-400 duration-500'
 					>
 						<img
-							src='./src/assets/images/logos/integrify_logo.jpg'
+							src='../assets/images/logos/integrify_logo.jpg'
 							alt='fitech-certificate'
 							className='h-10 w-10 rounded-full'
 						/>
@@ -101,7 +101,7 @@ function About() {
 						className='min-h-32 xs:w-full sm:w-full flex flex-col justify-center items-center rounded-sm border-2 border-green-700 bg-green-500 shadow-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-90 hover:bg-green-400 duration-500 space-y-2'
 					>
 						<img
-							src='./src/assets/images/logos/fitech_logo.png'
+							src='../assets/images/logos/fitech_logo.png'
 							alt='fitech-certificate'
 							className='h-10 w-10 rounded-full'
 						/>
@@ -115,7 +115,7 @@ function About() {
 						className='min-h-32 xs:w-full sm:w-full flex flex-col justify-center items-center rounded-sm border-2 border-cyan-700 bg-cyan-500 shadow-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-90 hover:bg-cyan-400 duration-500 space-y-2'
 					>
 						<img
-							src='./src/assets/images/logos/fitech_logo.png'
+							src='../assets/images/logos/fitech_logo.png'
 							alt='fitech-certificate'
 							className='h-10 w-10 rounded-full'
 						/>
@@ -129,7 +129,7 @@ function About() {
 						className='min-h-32 xs:w-full sm:w-full flex flex-col justify-center items-center rounded-sm border-2 border-purple-700 bg-purple-500 shadow-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-90 hover:bg-purple-400 duration-500 space-y-2'
 					>
 						<img
-							src='./src/assets/images/logos/opiframe_logo.png'
+							src='../assets/images/logos/opiframe_logo.png'
 							alt='opiframe-certificate'
 							className='h-10 w-10 rounded-full'
 						/>

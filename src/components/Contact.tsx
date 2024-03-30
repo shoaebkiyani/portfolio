@@ -18,7 +18,7 @@ function Contact() {
 					<div className='flex flex-wrap justify-around items-center p-4 mb-4 xs:justify-center xs:pl-0 xs:space-y-4 sm:space-y-4 xs:text-[12px] sm:text-sm border-sky-700 border-b'>
 						<div className='flex justify-start items-center hover:scale-105 ease-in-out duration-300'>
 							<img
-								src='../src/assets/images/contact/phone-android-svgrepo-com.svg'
+								src='../assets/images/contact/phone-android-svgrepo-com.svg'
 								alt='phone'
 								className='h-14 w-14 xs:h-8'
 							/>
@@ -28,7 +28,7 @@ function Contact() {
 						</div>
 						<div className='flex justify-start items-center hover:scale-105 ease-in-out duration-300'>
 							<img
-								src='../src/assets/images/contact/email-part-2-svgrepo-com.svg'
+								src='../assets/images/contact/email-part-2-svgrepo-com.svg'
 								alt='email'
 								className='h-14 w-14 p-2 xs:h-8'
 							/>

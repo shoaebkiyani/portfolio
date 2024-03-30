@@ -51,17 +51,17 @@ function Home() {
 				<h2 className='flex items-center space-x-3 xs:text-sm md:text-lg font-semibold tracking-wide animate-slidein300'>
 					Certified by:
 					<img
-						src='./src/assets/images/logos/integrify_logo.jpg'
+						src='../assets/images/logos/integrify_logo.jpg'
 						className='h-8 w-8 ml-2 rounded-full animate-slidein300'
 						alt='certified'
 					/>
 					<img
-						src='./src/assets/images/logos/fitech_logo.png'
+						src='../assets/images/logos/fitech_logo.png'
 						className='h-8 w-8 rounded-full animate-slidein500'
 						alt='certified'
 					/>
 					<img
-						src='./src/assets/images/logos/opiframe_logo.png'
+						src='../assets/images/logos/opiframe_logo.png'
 						className='h-8 w-8 rounded-full animate-slidein700'
 						alt='certified'
 					/>

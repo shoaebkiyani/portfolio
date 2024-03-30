@@ -2,73 +2,73 @@ const skills = [
 	{
 		id: 1,
 		title: 'HTML5',
-		imgURL: '../src/assets/images/techs/html-5-svgrepo-com.svg',
+		imgURL: '../assets/images/techs/html-5-svgrepo-com.svg',
 	},
 	{
 		id: 2,
 		title: 'CSS3',
-		imgURL: '../src/assets/images/techs/css-3-svgrepo-com.svg',
+		imgURL: '../assets/images/techs/css-3-svgrepo-com.svg',
 	},
 	{
 		id: 3,
 		title: 'SCSS',
-		imgURL: '../src/assets/images/techs/scss-svgrepo-com.svg',
+		imgURL: '../assets/images/techs/scss-svgrepo-com.svg',
 	},
 	{
 		id: 4,
 		title: 'Tailwind',
-		imgURL: '../src/assets/images/techs/tailwind-svgrepo-com.svg',
+		imgURL: '../assets/images/techs/tailwind-svgrepo-com.svg',
 	},
 	{
 		id: 5,
 		title: 'JS',
-		imgURL: '../src/assets/images/techs/javascript-svgrepo-com.svg',
+		imgURL: '../assets/images/techs/javascript-svgrepo-com.svg',
 	},
 	{
 		id: 6,
 		title: 'TS',
-		imgURL: '../src/assets/images/techs/typescript-logo-svgrepo-com.svg',
+		imgURL: '../assets/images/techs/typescript-logo-svgrepo-com.svg',
 	},
 	{
 		id: 7,
 		title: 'ReactJS',
-		imgURL: '../src/assets/images/techs/react-svgrepo-com.svg',
+		imgURL: '../assets/images/techs/react-svgrepo-com.svg',
 	},
 
 	{
 		id: 8,
 		title: 'NodeJS',
-		imgURL: '../src/assets/images/techs/nodejs-logo-svgrepo-com.svg',
+		imgURL: '../assets/images/techs/nodejs-logo-svgrepo-com.svg',
 	},
 	{
 		id: 9,
 		title: 'ExpressJS',
-		imgURL: '../src/assets/images/techs/express-svgrepo-com.svg',
+		imgURL: '../assets/images/techs/express-svgrepo-com.svg',
 	},
 	{
 		id: 10,
 		title: 'Java',
-		imgURL: '../src/assets/images/techs/java-logo-svgrepo-com.svg',
+		imgURL: '../assets/images/techs/java-logo-svgrepo-com.svg',
 	},
 	{
 		id: 11,
 		title: 'Springboot',
-		imgURL: '../src/assets/images/techs/springio-ar21.svg',
+		imgURL: '../assets/images/techs/springio-ar21.svg',
 	},
 	{
 		id: 12,
 		title: 'MongoDB',
-		imgURL: '../src/assets/images/techs/mongodb-svgrepo-com.svg',
+		imgURL: '../assets/images/techs/mongodb-svgrepo-com.svg',
 	},
 	{
 		id: 13,
 		title: 'PostgreSQL',
-		imgURL: '../src/assets/images/techs/postgresql-svgrepo-com.svg',
+		imgURL: '../assets/images/techs/postgresql-svgrepo-com.svg',
 	},
 	{
 		id: 14,
 		title: 'AWS',
-		imgURL: '../src/assets/images/techs/aws-svgrepo-com.svg',
+		imgURL: '../assets/images/techs/aws-svgrepo-com.svg',
 	},
 ];
 

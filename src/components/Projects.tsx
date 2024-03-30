@@ -4,31 +4,31 @@ function Projects() {
 	const projects = [
 		{
 			id: 1,
-			imgURL: '../src/assets/images/projects/e-commerce-project.png',
+			imgURL: '../assets/images/projects/e-commerce-project.png',
 			gitURL: 'https://github.com/shoaebkiyani/shopping-app-v1.1',
 			demoURL: 'https://techzoneapi.netlify.app/',
 		},
 		{
 			id: 2,
-			imgURL: '../src/assets/images/projects/portfolio_project.png',
+			imgURL: '../assets/images/projects/portfolio_project.png',
 			gitURL: 'https://github.com/shoaebkiyani/shoaib_portfolio',
 			demoURL: 'https://shoaibsportfolio.netlify.app/',
 		},
 		{
 			id: 3,
-			imgURL: '../src/assets/images/projects/search_github.png',
+			imgURL: '../assets/images/projects/search_github.png',
 			gitURL: 'https://github.com/shoaebkiyani/search-in-github',
 			demoURL: 'https://finduserongithub.netlify.app/',
 		},
 		{
 			id: 4,
-			imgURL: '../src/assets/images/projects/magic_rules.png',
+			imgURL: '../assets/images/projects/magic_rules.png',
 			gitURL: 'https://github.com/shoaebkiyani/magic_rules',
 			demoURL: 'https://magicrules1191.netlify.app/',
 		},
 		{
 			id: 5,
-			imgURL: '../src/assets/images/projects/countries_project.png',
+			imgURL: '../assets/images/projects/countries_project.png',
 			gitURL: 'https://github.com/shoaebkiyani/countries_app',
 			demoURL: 'https://searchcountries-app.netlify.app/',
 		},
