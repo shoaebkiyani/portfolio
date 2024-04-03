@@ -1,3 +1,5 @@
+import { motion } from 'framer-motion';
+
 interface IProps {
 	projects: {
 		id: number;
@@ -9,10 +11,31 @@ interface IProps {
 
 function Card(props: IProps) {
 	const { projects } = props;
+
+	const fadeInAnimationVariants = {
+		initial: {
+			opacity: 0,
+			y: 100,
+		},
+		animate: (index: number) => ({
+			opacity: 1,
+			y: 0,
+			transition: {
+				delay: 0.15 * index,
+				duration: 0.75,
+			},
+		}),
+	};
+
 	return (
 		<div className='h-full flex flex-wrap gap-10 justify-center items-center p-4 shadow-lg'>
-			{projects.map((project) => (
-				<div
+			{projects.map((project, index) => (
+				<motion.div
+					variants={fadeInAnimationVariants}
+					initial='initial'
+					whileInView='animate'
+					viewport={{ once: true }}
+					custom={index}
 					className='h-80 w-64 xs:w-full sm:w-full bg-zinc-900 shadow-md rounded-md text-gray-100'
 					key={project.id}
 				>
@@ -39,7 +62,7 @@ function Card(props: IProps) {
 							</a>
 						</div>
 					</div>
-				</div>
+				</motion.div>
 			))}
 		</div>
 	);

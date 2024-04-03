@@ -137,36 +137,19 @@ function App() {
 				</nav>
 			</header>
 			<main>
-				<section
-					id='home'
-					className='min-h-[calc(100vh-56px)] flex items-end bg-gray-800 bg-opacity-45 py-14'
-				>
+				<section id='home'>
 					<Home />
 				</section>
-				<section
-					id='about'
-					className='min-h-[calc(100vh-56px)] py-14 bg-gray-100'
-				>
+				<section id='about'>
 					<About />
 				</section>
-				<section
-					id='projects'
-					className='min-h-[calc(100vh-56px)] bg-gray-800 py-14'
-				>
+				<section id='projects'>
 					<Projects />
 				</section>
-				<section
-					id='skills'
-					className='min-h-[calc(100vh-56px)]
-					bg-gray-100 py-14'
-				>
+				<section id='skills'>
 					<Skills />
 				</section>
-				<section
-					id='contact'
-					className='min-h-[calc(100vh-56px)]
-					bg-gray-800 pt-14'
-				>
+				<section id='contact'>
 					<Contact />
 				</section>
 			</main>

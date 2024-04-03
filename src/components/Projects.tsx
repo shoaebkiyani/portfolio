@@ -35,8 +35,8 @@ function Projects() {
 	];
 
 	return (
-		<div id='projects' className='w-[90%] mx-auto text-gray-100'>
-			<section>
+		<div id='projects' className='py-6 text-gray-100 bg-gray-800'>
+			<section className='min-h-screen w-[90%] mx-auto'>
 				<div>
 					<h1 className='text-4xl text-sky-600 font-bold text-center py-4'>
 						My Projects

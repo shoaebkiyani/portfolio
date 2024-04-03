@@ -20,9 +20,12 @@ export default {
 				slidein300: 'slidein300 1s ease 300ms',
 				slidein500: 'slidein500 1s ease 500ms',
 				slidein700: 'slidein700 1s ease 700ms',
+				slidein1000: 'slidein1000 1s ease 1000ms',
 				slidedown: 'slidedown 2s ease 1000ms',
 				pulse: 'pulse 2s infinite alternate ease 1000ms',
 				wiggle: 'wiggle 2s linear infinite',
+				slideinleft: 'slideinleft 1s alternate',
+				slideinright: 'slideinright 1s alternate',
 			},
 			keyframes: {
 				'text-slide': {
@@ -48,7 +51,7 @@ export default {
 				slidein300: {
 					from: {
 						opacity: '0',
-						transform: 'translateY(-10px)',
+						transform: 'translateY(10px)',
 					},
 					to: {
 						opacity: '1',
@@ -58,7 +61,7 @@ export default {
 				slidein500: {
 					from: {
 						opacity: '0',
-						transform: 'translateY(-10px)',
+						transform: 'translateY(10px)',
 					},
 					to: {
 						opacity: '1',
@@ -68,7 +71,17 @@ export default {
 				slidein700: {
 					from: {
 						opacity: '0',
-						transform: 'translateY(-10px)',
+						transform: 'translateY(10px)',
+					},
+					to: {
+						opacity: '1',
+						transform: 'translateY(0)',
+					},
+				},
+				slidein1000: {
+					from: {
+						opacity: '0',
+						transform: 'translateY(10px)',
 					},
 					to: {
 						opacity: '1',
@@ -106,19 +119,39 @@ export default {
 						transform: 'rotate(0deg)',
 					},
 					'20%': {
-						transform: 'rotate(0.5deg)',
+						transform: 'rotate(10deg)',
 					},
 					'25%': {
-						transform: 'rotate(-0.5deg)',
+						transform: 'rotate(-10deg)',
 					},
 					'30%': {
-						transform: 'rotate(0.5deg)',
+						transform: 'rotate(10deg)',
 					},
 					'35%': {
-						transform: 'rotate(-0.5deg)',
+						transform: 'rotate(-10deg)',
 					},
 					'40%, 100%': {
 						transform: 'rotate(0)',
+					},
+				},
+				slideinleft: {
+					'0%': {
+						opacity: '0',
+						transform: 'translateX(50%)',
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'none',
+					},
+				},
+				slideinright: {
+					'0%': {
+						opacity: '0',
+						transform: 'translateX(-50%)',
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'none',
 					},
 				},
 			},

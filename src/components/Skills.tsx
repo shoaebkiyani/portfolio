@@ -1,3 +1,5 @@
+import { motion } from 'framer-motion';
+
 const skills = [
 	{
 		id: 1,
@@ -73,9 +75,23 @@ const skills = [
 ];
 
 function Skills() {
+	const fadeInAnimationVariants = {
+		initial: {
+			opacity: 0,
+			y: 100,
+		},
+		animate: (index: number) => ({
+			opacity: 1,
+			y: 0,
+			transition: {
+				delay: 0.15 * index,
+				duration: 0.75,
+			},
+		}),
+	};
 	return (
-		<div id='skills'>
-			<section className='min-h-[100v pt- w-[90%] mx-auto'>
+		<div id='skills' className='bg-gray-100'>
+			<section className='min-h-screen w-[90%] mx-auto py-6'>
 				<div>
 					<h1 className='text-4xl font-bold text-gray-500 text-center py-4'>
 						My Skills
@@ -88,14 +104,22 @@ function Skills() {
 					Here are few of the skills I posses...
 				</p>
 				<div className='flex flex-wrap gap-12 py-4 justify-center items-center'>
-					{skills.map((skill) => (
-						<div className='h-full' key={skill.id}>
+					{skills.map((skill, index) => (
+						<motion.div
+							variants={fadeInAnimationVariants}
+							initial='initial'
+							whileInView='animate'
+							viewport={{ once: true }}
+							custom={index}
+							className='h-full'
+							key={skill.id}
+						>
 							<img
 								src={skill.imgURL}
 								alt='skills'
 								className='h-36 w-36 sm:h-28 sm:w-28 xs:h-24 xs:w-24'
 							/>
-						</div>
+						</motion.div>
 					))}
 				</div>
 			</section>
