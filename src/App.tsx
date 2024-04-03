@@ -164,7 +164,7 @@ function App() {
 				<div className='bg-[#6495ED] hover:bg-blue-500 font-semibold text-center rounded-full h-10 w-10 fixed bottom-6 right-4 cursor-pointer'>
 					<button className='sticky mt-3' onClick={scrollToTop}>
 						<img
-							src='../src/assets/images/arrow/double-up-arrow-svgrepo-com.svg'
+							src='../assets/images/arrow/double-up-arrow-svgrepo-com.svg'
 							alt='scrollUp'
 							className='w-3 h-3 hover:fill-white'
 						/>
