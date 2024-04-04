@@ -1,3 +1,5 @@
+import ContactForm from './ContactForm';
+
 function Contact() {
 	return (
 		<div id='contact' className='bg-gray-800'>
@@ -37,68 +39,7 @@ function Contact() {
 							</a>
 						</div>
 					</div>
-					<form
-						name='contact'
-						action='https://formsubmit.co/762fa0ff97e2be20dbcf38a2cca30d25'
-						method='POST'
-						data-netlify='true'
-						className='h-full w-full shadow-lg space-y-4 flex flex-col items-center p-4'
-					>
-						<p className='w-48 text-center font-normal bg-gray-300 bg-opacity-10 shadow-md py-2 mb-4 underline underline-offset-2'>
-							Send me a message
-						</p>
-						<div className='flex w-[90%] mx-auto justify-center items-center'>
-							<input type='hidden' name='_captcha' value='false' />
-							<input
-								type='hidden'
-								name='_next'
-								value='https://shoaibsportfolio.netlify.app/thankyou'
-							/>
-							<div className='w-full mr-1'>
-								<input
-									type='text'
-									name='name'
-									placeholder='your name'
-									required
-									className='bg-transparent w-full h-10 p-2 border-b-2 outline-none xs:text-[9px] sm:text-sm'
-								/>
-							</div>
-							<div className='w-full ml-1'>
-								<input
-									type='email'
-									name='email'
-									placeholder='your email'
-									required
-									className='bg-transparent w-full h-10 p-2 border-b-2 outline-none xs:text-[9px] sm:text-sm'
-								/>
-							</div>
-						</div>
-
-						<div className='w-[90%] mx-auto'>
-							<input
-								type='text'
-								name='subject'
-								placeholder='subject'
-								required
-								className='bg-transparent w-full h-10 p-2 border-b-2 outline-none xs:text-[9px] sm:text-sm'
-							/>
-						</div>
-						<div className='h-full w-[90%] border-b'>
-							<textarea
-								name='message'
-								placeholder='your message...'
-								rows={10}
-								required
-								className='bg-transparent p-2 w-full h-32 outline-none xs:text-[9px] sm:text-sm'
-							></textarea>
-						</div>
-						<button
-							className='w-[90%] h-10 bg-[#6495ED] font-bold text-gray-100 hover:scale-[102%] transform ease-in-out duration-300'
-							type='submit'
-						>
-							send
-						</button>
-					</form>
+					<ContactForm />
 				</div>
 			</section>
 		</div>
