@@ -33,7 +33,7 @@ function ContactForm() {
 							htmlFor='name'
 							className='text-gray-400 text-md xs:text-[9px] sm:text-sm autofill:bg-gray-800'
 						>
-							name
+							name*
 						</label>
 					</div>
 					<div className='input-data w-full ml-1'>
@@ -50,7 +50,7 @@ function ContactForm() {
 							htmlFor='email'
 							className='text-gray-400 text-md xs:text-[9px] sm:text-sm'
 						>
-							name@example.com
+							name@example.com*
 						</label>
 					</div>
 				</div>
@@ -69,7 +69,7 @@ function ContactForm() {
 						htmlFor='subject'
 						className='text-gray-400 text-md xs:text-[9px] sm:text-sm'
 					>
-						subject
+						subject*
 					</label>
 				</div>
 				<div className='input-data text-area h-full w-full'>
@@ -85,7 +85,7 @@ function ContactForm() {
 						htmlFor='message'
 						className='text-gray-400 text-md xs:text-[9px] sm:text-sm'
 					>
-						your message ...
+						your message ...*
 					</label>
 				</div>
 				<button
