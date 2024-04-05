@@ -1,3 +1,4 @@
+import Navbar from './Navbar';
 import About from './About';
 import Contact from './Contact';
 import Projects from './Projects';
@@ -30,21 +31,22 @@ function Home() {
 	};
 	return (
 		<div>
+			<Navbar />
 			<main
 				id='home'
 				className='relative min-h-screen w-full text-amber-100 bg-gray-800 bg-opacity-45'
 			>
-				<div className='absolute h-scree w-full -z-10'>
+				<div className='absolute w-full -z-10'>
 					<div className='md:hidden'>
 						<img
-							className='min-h-screen w-full bg-cover bg-gray-800'
+							className='min-h-screen w-full bg-cover bg-no-repeat bg-gray-800'
 							src={PortraitSM}
 							alt='hero-small'
 						/>
 					</div>
 					<div className='sm:hidden'>
 						<img
-							className='min-h-screen md:h-[calc(100vh-56px)] w-full bg-cover bg-gray-800'
+							className='min-h-screen md:h-[calc(100vh-56px)] w-full bg-cover bg-no-repeat bg-gray-800'
 							src={PortraitLG}
 							alt='hero-large'
 						/>
