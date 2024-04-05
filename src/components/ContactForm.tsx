@@ -16,19 +16,22 @@ function ContactForm() {
 					<input
 						type='hidden'
 						name='_next'
-						value='https://shoaibsportfolio.netlify.app/thankyou'
+						value='https://shoaibkiyani.netlify.app/thankyou'
+						// value='http://localhost:5173/thankyou'
 					/>
 					<div className='input-data w-full mr-1'>
 						<input
 							type='text'
+							id='name'
 							name='name'
 							required
+							autoComplete='true'
 							className='bg-transparent w-full h-10 p-2 border-b-2 outline-none xs:text-[9px] sm:text-sm'
 						/>
 						<div className='underline-data'></div>
 						<label
 							htmlFor='name'
-							className='text-gray-400 autofill:bg-gray-800'
+							className='text-gray-400 text-md xs:text-[9px] sm:text-sm autofill:bg-gray-800'
 						>
 							name
 						</label>
@@ -36,12 +39,17 @@ function ContactForm() {
 					<div className='input-data w-full ml-1'>
 						<input
 							type='email'
+							id='email'
 							name='email'
 							required
+							autoComplete='true'
 							className='bg-transparent w-full h-10 p-2 border-b-2 outline-none xs:text-[9px] sm:text-sm'
 						/>
 						<div className='underline-data'></div>
-						<label htmlFor='email' className='text-gray-400'>
+						<label
+							htmlFor='email'
+							className='text-gray-400 text-md xs:text-[9px] sm:text-sm'
+						>
 							name@example.com
 						</label>
 					</div>
@@ -50,24 +58,33 @@ function ContactForm() {
 				<div className='input-data w-full'>
 					<input
 						type='text'
+						id='subject'
 						name='subject'
 						required
+						autoComplete='true'
 						className='bg-transparent w-full h-10 p-2 border-b-2 outline-none xs:text-[9px] sm:text-sm'
 					/>
 					<div className='underline-data'></div>
-					<label htmlFor='subject' className='text-gray-400'>
+					<label
+						htmlFor='subject'
+						className='text-gray-400 text-md xs:text-[9px] sm:text-sm'
+					>
 						subject
 					</label>
 				</div>
 				<div className='input-data text-area h-full w-full'>
 					<textarea
+						id='message'
 						name='message'
 						rows={10}
 						required
 						className='bg-transparent p-2 w-full h-32 outline-none xs:text-[9px] sm:text-sm'
 					></textarea>
 					<div className='underline-data'></div>
-					<label htmlFor='text-area' className='text-gray-400'>
+					<label
+						htmlFor='message'
+						className='text-gray-400 text-md xs:text-[9px] sm:text-sm'
+					>
 						your message ...
 					</label>
 				</div>

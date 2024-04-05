@@ -67,7 +67,7 @@ input:-webkit-autofill:active {
 	position: absolute;
 	pointer-events: none;
 	bottom: 10px;
-	font-size: 16px;
+	/* font-size: 12px; */
 	transition: all 0.3s ease;
 }
 .text-area label {

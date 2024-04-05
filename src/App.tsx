@@ -1,5 +1,7 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
+import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -9,7 +11,18 @@ import Contact from './components/Contact';
 import { animateScroll } from 'react-scroll';
 
 import './App.css';
-import Navbar from './components/Navbar';
+import Thankyou from './components/Thankyou';
+// import RootLayout from './layout/RootLayout';
+
+// const router = createBrowserRouter(
+// 	createRoutesFromElements(
+// 		<Route path='/' element={<RootLayout />}>
+// 			<Route index element={<Home />} />
+// 			<Route path='/thankyou'></Route>
+// 		</Route>
+
+// 	)
+// );
 
 function App() {
 	let currentYear = new Date().getFullYear();
@@ -34,9 +47,15 @@ function App() {
 		<div>
 			<Navbar />
 			<main>
-				<section id='home'>
+				<Router>
+					<Routes>
+						<Route path='/' element={<Home />} />
+						<Route path='thankyou' element={<Thankyou />} />
+					</Routes>
+				</Router>
+				{/* <section id='home'>
 					<Home />
-				</section>
+				</section> */}
 				<section id='about'>
 					<About />
 				</section>
