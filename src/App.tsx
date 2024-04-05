@@ -50,7 +50,7 @@ function App() {
 				<Router>
 					<Routes>
 						<Route path='/' element={<Home />} />
-						<Route path='thankyou' element={<Thankyou />} />
+						<Route path='thankyou' id='thankyou' element={<Thankyou />} />
 					</Routes>
 				</Router>
 				{/* <section id='home'>
