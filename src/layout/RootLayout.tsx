@@ -1,3 +1,5 @@
+import { Analytics } from '@vercel/analytics/react';
+
 import { useState, useEffect } from 'react';
 
 import { Outlet } from 'react-router-dom';
@@ -20,6 +22,7 @@ function RootLayout() {
 				) : (
 					<Outlet />
 				)}
+				<Analytics />
 			</main>
 		</div>
 	);
