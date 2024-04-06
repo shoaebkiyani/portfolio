@@ -41,9 +41,8 @@ function ContactForm() {
 					<input
 						type='hidden'
 						name='_next'
-						// value='https://shoaibkiyani.netlify.app/thankyou'
+						value='https://shoaibkiyani.netlify.app/thankyou'
 						//value='http://localhost:5173/thankyou'
-						value='https://shoaibkiyani.vercel.app/thankyou'
 					/>
 					<input type='hidden' name='_template' value='table' />
 
