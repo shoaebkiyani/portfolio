@@ -44,6 +44,7 @@ function ContactForm() {
 						value='https://shoaibkiyani.netlify.app/thankyou'
 						//value='http://localhost:5173/thankyou'
 					/>
+					<input type='hidden' name='_template' value='table' />
 
 					<div className='input-data w-full mr-1'>
 						<input
