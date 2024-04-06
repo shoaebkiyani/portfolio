@@ -1,4 +1,29 @@
+import { useState } from 'react';
+
+interface formData {
+	name: string;
+	email: string;
+	subject: string;
+	message: string;
+}
+
 function ContactForm() {
+	const [formData, setFormData] = useState<formData>({
+		name: '',
+		email: '',
+		subject: '',
+		message: '',
+	});
+
+	const { name, email, subject, message } = formData;
+
+	const handleChange = (
+		e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+	) => {
+		const { name, value } = e.target;
+		setFormData((prevData) => ({ ...prevData, [name]: value }));
+	};
+
 	return (
 		<section>
 			<form
@@ -17,13 +42,16 @@ function ContactForm() {
 						type='hidden'
 						name='_next'
 						value='https://shoaibkiyani.netlify.app/thankyou'
-						// value='http://localhost:5173/thankyou'
+						//value='http://localhost:5173/thankyou'
 					/>
+
 					<div className='input-data w-full mr-1'>
 						<input
 							type='text'
 							id='name'
 							name='name'
+							value={name}
+							onChange={handleChange}
 							required
 							autoComplete='true'
 							className='bg-transparent w-full h-10 p-2 border-b-2 outline-none xs:text-[9px] sm:text-sm'
@@ -41,6 +69,8 @@ function ContactForm() {
 							type='email'
 							id='email'
 							name='email'
+							value={email}
+							onChange={handleChange}
 							required
 							autoComplete='true'
 							className='bg-transparent w-full h-10 p-2 border-b-2 outline-none xs:text-[9px] sm:text-sm'
@@ -60,6 +90,8 @@ function ContactForm() {
 						type='text'
 						id='subject'
 						name='subject'
+						value={subject}
+						onChange={handleChange}
 						required
 						autoComplete='true'
 						className='bg-transparent w-full h-10 p-2 border-b-2 outline-none xs:text-[9px] sm:text-sm'
@@ -77,6 +109,8 @@ function ContactForm() {
 						id='message'
 						name='message'
 						rows={10}
+						value={message}
+						onChange={handleChange}
 						required
 						className='bg-transparent p-2 w-full h-32 outline-none xs:text-[9px] sm:text-sm'
 					></textarea>

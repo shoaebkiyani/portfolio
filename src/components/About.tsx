@@ -51,8 +51,11 @@ function About() {
 	};
 
 	return (
-		<div id='about' className='py-6 font-normal bg-gray-100'>
-			<section className='min-h-screen w-[90%] mx-auto'>
+		<div
+			id='about'
+			className='min-h-[calc(100vh-56px)] py-6 font-normal bg-gray-100'
+		>
+			<section className='w-[90%] mx-auto'>
 				<div>
 					<h1 className='text-4xl text-gray-500 font-bold text-center py-4 transition-opacity ease-in duration-1000'>
 						About Me
@@ -153,7 +156,7 @@ function About() {
 					<motion.p variants={item} className='mb-4 text-justify xs:text-sm'>
 						To know more about me:
 						<a
-							href='https://www.dropbox.com/scl/fi/o1klhn4wmqf49oeq379ud/Shoaib-Kiyani-Full-stack-developer.pdf?rlkey=yxrvwn8girokhriuvgzy9jlel&dl=0'
+							href='https://www.dropbox.com/scl/fi/mzdbf9udo7yvp95sljzgk/Shoaib_Kiyani.pdf?rlkey=7z3vm685svf5c33dsnmaai19x&dl=0'
 							target='_blank'
 							className='bg-[#6495ED] text-gray-900 font-bold rounded-lg hover:bg-sky-700 hover:text-gray-100 border transition duration-500 ml-2 p-2 xs:text-[10px]'
 						>

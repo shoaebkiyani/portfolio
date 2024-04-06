@@ -35,8 +35,11 @@ function Projects() {
 	];
 
 	return (
-		<div id='projects' className='py-6 text-gray-100 bg-gray-800'>
-			<section className='min-h-screen w-[90%] mx-auto'>
+		<div
+			id='projects'
+			className='min-h-[calc(100vh-56px)] py-6 text-gray-100 bg-gray-800'
+		>
+			<section className='w-[90%] mx-auto'>
 				<div>
 					<h1 className='text-4xl text-sky-600 font-bold text-center py-4'>
 						My Projects

@@ -54,7 +54,7 @@ function Navbar() {
 								spy
 								to={menu.title}
 								key={menu.id}
-								offset={-57.65}
+								offset={-56.65}
 							>
 								{menu.title.toUpperCase()}
 							</Link>

@@ -34,7 +34,7 @@ function Home() {
 			<Navbar />
 			<main
 				id='home'
-				className='relative min-h-screen w-full text-amber-100 bg-gray-800 bg-opacity-45'
+				className='relative min-h-[calc(100vh-56px)] w-full text-amber-100 bg-gray-800 bg-opacity-45'
 			>
 				<div className='absolute w-full -z-10'>
 					<div className='md:hidden'>
@@ -46,7 +46,7 @@ function Home() {
 					</div>
 					<div className='sm:hidden'>
 						<img
-							className='min-h-screen md:h-[calc(100vh-56px)] w-full bg-cover bg-no-repeat bg-gray-800'
+							className='min-h-[calc(100vh-56px)] md:h-[calc(100vh-56px)] w-full bg-cover bg-no-repeat bg-gray-800'
 							src={PortraitLG}
 							alt='hero-large'
 						/>

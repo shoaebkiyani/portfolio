@@ -2,7 +2,7 @@ import ContactForm from './ContactForm';
 
 function Contact() {
 	return (
-		<div id='contact' className='bg-gray-800'>
+		<div id='contact' className='min-h-[calc(100vh-56px)] bg-gray-800'>
 			<section className='w-[90%] mx-auto text-gray-100 border-b border-sky-700 py-6'>
 				<div>
 					<h1 className='text-4xl text-sky-600 font-bold text-center py-4'>

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-const skills = [
+const skills: ISkills[] = [
 	{
 		id: 1,
 		title: 'HTML5',
@@ -72,7 +72,18 @@ const skills = [
 		title: 'AWS',
 		imgURL: '../assets/images/techs/aws-svgrepo-com.svg',
 	},
+	{
+		id: 15,
+		title: 'Figma',
+		imgURL: '../assets/images/techs/figma-svgrepo-com.svg',
+	},
 ];
+
+interface ISkills {
+	id: number;
+	title: string;
+	imgURL: string;
+}
 
 function Skills() {
 	const fadeInAnimationVariants = {
@@ -90,8 +101,8 @@ function Skills() {
 		}),
 	};
 	return (
-		<div id='skills' className='bg-gray-100'>
-			<section className='min-h-screen w-[90%] mx-auto py-6'>
+		<div id='skills' className='min-h-[calc(100vh-56px)] py-6 bg-gray-100'>
+			<section className='w-[90%] mx-auto'>
 				<div>
 					<h1 className='text-4xl font-bold text-gray-500 text-center py-4'>
 						My Skills
