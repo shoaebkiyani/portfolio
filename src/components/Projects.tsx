@@ -4,15 +4,15 @@ function Projects() {
 	const projects = [
 		{
 			id: 1,
-			imgURL: '../assets/images/projects/e-commerce-project.png',
-			gitURL: 'https://github.com/shoaebkiyani/shopping-app-v1.1',
-			demoURL: 'https://techzoneapi.netlify.app/',
+			imgURL: '../assets/images/projects/contact-keeper.png',
+			gitURL: 'https://github.com/shoaebkiyani/contact-keeper',
+			demoURL: 'https://contact-keeper-z2cw.onrender.com/',
 		},
 		{
 			id: 2,
-			imgURL: '../assets/images/projects/portfolio_project.png',
-			gitURL: 'https://github.com/shoaebkiyani/shoaib_portfolio',
-			demoURL: 'https://shoaibsportfolio.netlify.app/',
+			imgURL: '../assets/images/projects/e-commerce-project.png',
+			gitURL: 'https://github.com/shoaebkiyani/shopping-app-v1.1',
+			demoURL: 'https://techzoneapi.netlify.app/',
 		},
 		{
 			id: 3,
