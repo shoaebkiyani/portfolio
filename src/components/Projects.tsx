@@ -7,30 +7,36 @@ function Projects() {
 			imgURL: '../assets/images/projects/contact-keeper.png',
 			gitURL: 'https://github.com/shoaebkiyani/contact-keeper',
 			demoURL: 'https://contact-keeper-z2cw.onrender.com/',
+			videoLink: '',
 		},
 		{
 			id: 2,
 			imgURL: '../assets/images/projects/e-commerce-project.png',
 			gitURL: 'https://github.com/shoaebkiyani/shopping-app-v1.1',
 			demoURL: 'https://techzoneapi.netlify.app/',
+			videoLink:
+				'https://www.dropbox.com/scl/fi/deub9hhuzsfd1f58ll2zm/techzoneapp.mp4?rlkey=9vuzdh9aovql0srv5zofwdpg6&st=gef6e1gp&dl=0',
 		},
 		{
 			id: 3,
 			imgURL: '../assets/images/projects/search_github.png',
 			gitURL: 'https://github.com/shoaebkiyani/search-in-github',
 			demoURL: 'https://finduserongithub.netlify.app/',
+			videoLink: '',
 		},
 		{
 			id: 4,
 			imgURL: '../assets/images/projects/magic_rules.png',
 			gitURL: 'https://github.com/shoaebkiyani/magic_rules',
 			demoURL: 'https://magicrules1191.netlify.app/',
+			videoLink: '',
 		},
 		{
 			id: 5,
 			imgURL: '../assets/images/projects/countries_project.png',
 			gitURL: 'https://github.com/shoaebkiyani/countries_app',
 			demoURL: 'https://searchcountries-app.netlify.app/',
+			videoLink: '',
 		},
 	];
 

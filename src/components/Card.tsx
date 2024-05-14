@@ -6,6 +6,7 @@ interface IProps {
 		imgURL: string;
 		gitURL: string;
 		demoURL: string;
+		videoLink?: string;
 	}[];
 }
 
@@ -60,6 +61,15 @@ function Card(props: IProps) {
 							>
 								DEMO
 							</a>
+							{project?.videoLink !== '' && (
+								<a
+									href={project.videoLink}
+									target='_blank'
+									className='h-full w-full flex justify-center items-center rounded-br-md underline underline-offset-4 decoration-1 border border-gray-500 transition-all ease-in-out duration-700 hover:scale-90 cursor-pointer'
+								>
+									Video
+								</a>
+							)}
 						</div>
 					</div>
 				</motion.div>
