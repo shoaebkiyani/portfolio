@@ -156,7 +156,7 @@ function About() {
 					<motion.p variants={item} className='mb-4 text-justify xs:text-sm'>
 						To know more about me:
 						<a
-							href='https://www.dropbox.com/scl/fi/mzdbf9udo7yvp95sljzgk/Shoaib_Kiyani.pdf?rlkey=7z3vm685svf5c33dsnmaai19x&dl=0'
+							href='https://www.dropbox.com/scl/fi/jt4yd6l76slbsed98bx6y/Shoaib_Kiyani.pdf?rlkey=vdrm8taxno8uqhl99tvnlbxo2&st=64uhbx4u&dl=0'
 							target='_blank'
 							className='bg-[#6495ED] text-gray-900 font-bold rounded-lg hover:bg-sky-700 hover:text-gray-100 border transition duration-500 ml-2 p-2 xs:text-[10px]'
 						>
